@@ -1,0 +1,43 @@
+git config -- global user.name
+git config -- global user.email
+clear
+
+
+->to convert the current project into git hub repository
+git init
+
+
+
+->create .gitignore file and those file names which you don;t want to push on cloud repository
+git status
+
+
+-> to put all files in staging
+git add .
+git status
+
+
+-> from staging to commit mode
+git commit -m "First commit"
+
+ 
+
+->attach this local repository with cloud repository
+git remote add origin path_of_the_remote_repository_on_git_hub
+
+
+for example ->  git remote add origin https://github.com/MehraRuby/10929FirstRepo.git
+
+
+-> then upload/push all the file on remote repository
+git push origin master
+
+
+
+
+
+
+
+
+
+
